@@ -9,8 +9,8 @@
     <title>Home</title>
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light my-navbar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Логотип</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -50,12 +50,64 @@
                 </div>
             </div>
         </nav>
-
     </div>
-
-    <div class="container">
+    
+    <div class="container-fluid custom-slider-container">
+        <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../web_prototype/img/firstsilde.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/web_prototype/img/secondslide.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/web_prototype/img/thirdslide.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container custom-divider"></div>
+    <div class="container-sm row">
+        <div class="col-sm">
+            <p class="h1">Title</p>
+            <img src="/web_prototype/img/placeholder600x400.jpg" alt="" class="img-fluid">
+        </div>
         
+        <div class="col-sm">
+            <p class="h2">Title</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in suscipit elit. Nunc lacinia iaculis augue ut tempus.
+            Proin nunc massa, bibendum sit amet ligula id, ultrices luctus ipsum. Sed maximus elementum ornare. Cras condimentum
+            consectetur lorem, ac accumsan dolor ultricies vel. Duis sodales efficitur mauris quis mollis. Donec efficitur ornare
+            sem, at ultricies elit vehicula et. Sed mauris mi, finibus vel tempor eget, iaculis id sem. Phasellus vel mi sed nulla
+            ornare laoreet. Duis placerat eros non turpis vestibulum, eu posuere sem sagittis. Etiam est odio, interdum in egestas
+            bibendum, elementum nec ligula. Ut ac sapien lectus. Suspendisse eu imperdiet mauris. Sed venenatis vulputate laoreet.
+            Aliquam erat volutpat.</p>
+        </div>
     </div>
+    <div class="container custom-divider"></div>
+    
+        <div class="container-sm row">
+            <div class="card mb-3 border-info" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="/web_prototype/img/textcard.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Заголовок карточки</h5>
+                            <p class="card-text">Это более широкая карта с вспомогательным текстом ниже в качестве естественного
+                                перехода к дополнительному контенту. Этот контент немного длиннее.</p>
+                            <p class="card-text"><small class="text-muted">Последнее обновление 3 мин. назад</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
