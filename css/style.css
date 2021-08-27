@@ -8,3 +8,7 @@
     background-color: #000;
     height: 1px;
 }
+
+footer-container{
+    background-color: var(--bs-secondary);
+}
