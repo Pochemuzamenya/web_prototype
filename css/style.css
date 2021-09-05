@@ -68,3 +68,12 @@
     padding: 13px;
     color: darkgray;
 }
+
+.contacts-info{
+    padding: 15px;
+}
+
+.contacts-map{
+    min-height: 350px;
+    padding: 15px;
+}
