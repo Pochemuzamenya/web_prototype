@@ -1,3 +1,11 @@
+
+.my-navbar{
+    background-color: #222222;
+}
+
+.navbar-container{
+    padding: 0;
+}
 .custom-slider-container{
     padding: 0%;
 }
@@ -9,6 +17,54 @@
     height: 1px;
 }
 
-footer-container{
-    background-color: var(--bs-secondary);
+.footer-container{
+    background: #222222;
+    padding: 0px 10px 20px 10px;
+    border-top: 1px solid #2d2d2d;
+}
+
+.social-icons{
+    padding-top: 14px;
+}
+
+.bottom-callback{
+    padding: 15px;
+}
+
+.adress-item{
+    color: aliceblue;
+    padding: 13px;
+}
+
+.location-ico{
+    width: 20px;
+    height: 20px;
+    padding-bottom: 4px;
+}
+
+.adress-content{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(43, 214, 226);
+}
+
+.adress-content:hover{
+    color: chartreuse;
+}
+
+.navbar-footer{
+    padding: 13px;
+}
+
+.footer-navbar-link{
+    text-decoration: none;
+    color: darkorange;
+}
+
+.footer-navbar-link:hower{
+    color: darkgray;
+}
+.terms-footer{
+    padding: 13px;
+    color: darkgray;
 }
