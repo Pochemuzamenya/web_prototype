@@ -1,0 +1,28 @@
+{
+  "name": "web-prototype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pochemuzamenya/web_prototype.git"
+  },
+  "author": "Filatov Andrey <filatovprivate@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pochemuzamenya/web_prototype/issues"
+  },
+  "homepage": "https://github.com/Pochemuzamenya/web_prototype#readme"
+}
