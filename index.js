@@ -35,7 +35,7 @@ app.post('/', urlencodedParser, (req, res) => {
     const message = {
         
         to: req.body.email,
-        subject: 'Text confirmed',
+        subject: 'Message subject',
         text: `${req.body.message}`
 
     }

@@ -9,6 +9,9 @@
     <div class="container-fluid full-body">
         <%- include('./partials/navbar');%>
             <div class="container">
+                <div class="d-flex justify-content-center">
+                    <h2>Title</h2>
+                </div>
                 <div class="container-sm row">
                     <div class="col-6">
                         <p>С другой стороны начало повседневной работы по формированию позиции способствует подготовки и
@@ -28,20 +31,7 @@
                             способствует подготовки и реализации соответствующий условий активизации.
                     </div>
                     <div class="col-6">
-                        <form method="post">
-                            <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                <input type="email" name="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp">
-                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                                <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </form>
+                        <%- include('./partials/email_form');%>
                     </div>
                 </div>
             </div>
@@ -72,7 +62,9 @@
                     </div>
                 </div>
             </div>
+
             <div class="container custom-divider"></div>
+            
             <div class="container">
                 <div class="container-sm row gy-5">
                     <div class="card col-sm" style="width: 18rem;">
