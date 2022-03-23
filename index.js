@@ -7,25 +7,17 @@ const __dirname = path.resolve()
 const PORT = process.env.PORT ?? 8080
 const urlencodedParser = express.urlencoded({ extended: false });
 
-
 app.set('view engine', 'ejs')
 app.set('views', path.resolve(__dirname, 'templates'))
 
 app.get('/', (req, res) => {
-    res.render('home', { title: 'Home', active: 'Main' })
+    res.render('home', { title: 'Главная'})
 })
 
-app.get('/contacts', (req, res) => {
-    res.render('contacts', { title: 'Contacts', active: 'Contact' })
+app.get('/galery', (req, res) => {
+    res.render('galery', { title: 'Галерея'})
 })
 
-app.get('/services', (req, res) => {
-    res.render('service', { title: 'Services', active: 'Service' })
-})
-
-app.get('/about', (req, res) => {
-    res.render('about', { title: 'About', active: 'About' })
-})
 
 app.post('/', urlencodedParser, (req, res) => {
     if (!req.body.email) {
@@ -35,9 +27,11 @@ app.post('/', urlencodedParser, (req, res) => {
     const message = {
         
         to: req.body.email,
-        subject: 'Message subject',
-        text: `${req.body.message}`
-
+        subject: 'Отклик на сайте',
+        text: `Имя: ${req.body.firstName}
+        Фамилия: ${req.body.lastName}
+        Номер телефона: ${req.body.phoneNumber}
+        Сообщение: ${req.body.message}`
     }
     mail(message)
     res.redirect('/')

@@ -1,0 +1,33 @@
+Услуги
+Мы оказываем услуги по:
+1)
+Научным исследованиям на заданную тему.
+<ion-icon name="book-outline"></ion-icon>
+2)
+Опытно конструкторским работам
+<ion-icon name="construct-outline"></ion-icon>
+3)
+Исследованиям свойств объекта
+<ion-icon name="search-outline"></ion-icon>
+4)
+Разработке и производству устройств или механизмов призванных выполнять
+поставленную задачу
+<ion-icon name="hammer-outline"></ion-icon>
+5)
+Разработке алгоритмов систем управления процессами
+<ion-icon name="cog-outline"></ion-icon>
+6)
+Реинжинирингу
+<ion-icon name="calculator-outline"></ion-icon>
+7)
+Ремонту и модернизации устройств и механизмов сторонних производителей
+<ion-icon name="build-outline"></ion-icon>
+8)
+Экспертированию
+<ion-icon name="analytics-outline"></ion-icon>
+9)
+Запуску производств или отдельных процессов
+<ion-icon name="rocket-outline"></ion-icon>
+10) Разработке технологий производства и подбор оборудования для выпуска заданного
+продукта
+<ion-icon name="layers-outline"></ion-icon>

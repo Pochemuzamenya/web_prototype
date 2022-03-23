@@ -10,7 +10,7 @@ const transporter = nodemailer.createTransport({
     }
 },
     { 
-        from: 'Mailer test <llewellyn.ankunding9@ethereal.email>' 
+        from: 'Glovepicker-web-app <llewellyn.ankunding9@ethereal.email>' 
     })
 
 export const mail = message => {
